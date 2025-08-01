@@ -1,0 +1,36 @@
+{
+  "name": "spectrogram",
+  "version": "1.0.0",
+  "description": "Generate spectrograms from audio files with metadata preservation",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "spectrogram",
+    "audio",
+    "fft",
+    "visualization",
+    "metadata",
+    "png",
+    "audio-analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^1.4.1",
+    "canvas": "^2.11.2",
+    "commander": "^11.1.0",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
